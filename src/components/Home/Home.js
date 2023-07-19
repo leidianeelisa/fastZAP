@@ -1,15 +1,21 @@
 import React from "react";
+
 import logo from "../../assets/logo.svg";
-import styles from "./Home.scss";
+import styles from "./Home.module.scss";
 
 const Home = () => {
   return (
-    <div>
-      <header>
-        <img src={logo} alt="Logo"></img>
+    <div className={styles.container}>
+      <header className={styles.header}>
+        <img className={styles.headerLogo} src={logo} alt="Logo"></img>
       </header>
+      <div>
+        <div className={styles.description}>
+          Inicie uma nova conversa no WhatsApp sem salvar o contato!
+        </div>
+      </div>
       <footer>
-        Todos os direitos reservados Desenvolvido por Leidiane Cunha
+        <div className={styles.footer}>Desenvolvido por Leidiane Cunha.</div>
       </footer>
     </div>
   );
