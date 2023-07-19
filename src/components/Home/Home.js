@@ -11,7 +11,8 @@ const Home = () => {
       </header>
       <div>
         <div className={styles.description}>
-          Inicie uma nova conversa no WhatsApp sem salvar o contato!
+          Clicou, chamou! Inicie uma nova conversa no WhatsApp sem salvar o
+          contato!
         </div>
       </div>
       <footer>
